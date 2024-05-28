@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<title>Profile Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+.bgimg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('PICTURE. jpg');
+  overflow:hidden;
+  overflow:hidden;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.example::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.example {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+</style>
+<body>
+
+<!-- Sidebar with image -->
+<nav class="w3-sidebar w3-hide-medium w3-hide-small example" style="width:40%">
+  <div class="bgimg">
+    <img src="PICTURE.jpg"></div>
+</nav>
+
+<!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+<nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+    <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About Me</a>
+    <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">My Skills</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">My Work</a>
+  </div>
+</nav>
+
+<!-- Page Content -->
+<div class="w3-main w3-padding-large" style="margin-left:40%">
+
+  <!-- Menu icon to open sidebar -->
+  <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+  <!-- Header -->
+  <header class="w3-container w3-center" style="padding:12px 16px" id="home">
+    <h1 class="w3-jumbo"><b>Srinidhi Vemaraju</b></h1>
+    <p>2nd Year Student at <a href="https://mvsrec.edu.in/"> MVSR College</a></p>
+    </button>
+  </header>
+   <!-- Portfolio Section -->
+   <div  id="portfolio">
+    <center><h1 > <b>My Portfolio</b></h1></center>
+    <hr class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <!--<div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="/w3images/wedding.jpg" style="width:100%">
+        <img src="/w3images/rocks.jpg" style="width:100%">
+        <img src="/w3images/sailboat.jpg" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="/w3images/underwater.jpg" style="width:100%">
+        <img src="/w3images/chef.jpg" style="width:100%">
+        <img src="/w3images/wedding.jpg" style="width:100%">
+        <img src="/w3images/p6.jpg" style="width:100%">
+      </div>
+    <!-- End photo grid
+    </div>-->
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+    <h2>About</h2>
+    <hr class="w3-opacity">
+    <p>I completed my Secondary Education at Johnson Grammar School ICSE in the academic year 2019-2020 and my Higher Education at Narayana Junior College from 2020-2022. Currently, I am pursuing a Bachelor of Engineering degree from Maturi Venkata Subba Rao Engineering College.
+
+      As a driven and enthusiastic student, I am eager to embark on a professional journey where I can apply my academic knowledge and gain practical experience. Through diverse internships, innovative projects, industry-recognized certifications, and active participation in extracurricular activities, I have developed a robust foundation in C, Python, Java, HTML, and CSS. My experiences have also sharpened my analytical skills, problem-solving abilities, and creativity.
+      
+      Moreover, I have demonstrated my capability to lead and collaborate effectively as a team player, consistently striving for excellence. My passion for continuous learning and adaptability equips me to tackle new challenges and contribute meaningfully to any organization.
+    <h3 class="w3-padding-16">My Skills</h3>
+    <p class="w3-wide">
+      <img src="java.png" height="40" width="40">Java</p>
+    <div class="w3-light-grey">
+    </div>
+    <p class="w3-wide"> 
+      <img src="Python.png" height="40" width="40">Python</p>
+    <div class="w3-light-grey">
+    </div>
+    <p class="w3-wide"> 
+       <img src="C.png" height="40" width="40"> C</p>
+    <div class="w3-light-grey">
+      </div>
+      <p class="w3-wide">
+        <img src="html.png" height="40" width="40"> Html</p>
+      <div class="w3-light-grey">
+      </div>
+      <p class="w3-wide">
+        <img src="CSS.png"height="40" width="40"> CSS</p>
+      <div class="w3-light-grey">
+      </div>
+      <p class="w3-wide">
+        <img src="Leadership.png"height="40" width="40"> Leadership</p>
+      <div class="w3-light-grey">
+      </div>
+      <p class="w3-wide">
+        <img src="Time Management.png"height="40" width="40"> Time Management</p>
+      <div class="w3-light-grey">
+      </div>
+      <h3 class="w3-padding-16">My Work</h3>
+    <p>One notable project I worked on was a mini project for my college, where my team and I created a website titled "Pilgrimage Sites of Bharat." This website features an interactive map of India. When a state is clicked, it opens a dedicated page about the pilgrimage sites in that state. The site includes comprehensive information such as text descriptions, text-to-speech functionality, Google Translate integration, images, audio files, video files, and the precise locations of each pilgrimage site. This project allowed me to enhance my web development skills and gain hands-on experience with various multimedia and interactive technologies.
+      Moreover, I have demonstrated my capability to lead and collaborate effectively as a team player, consistently striving for excellence. My passion for continuous learning and adaptability equips me to tackle new challenges and contribute meaningfully to any organization.</p><br>    
+      <div class="w3-light-grey"></div>
+    <h2 class="w3-padding-16">My Certifications</h2>
+    <p><a href="csf.html">Cloud Security Fundamentals</a></p>
+    <!--/div>
+      <div class="w3-light-grey"-->
+    <p><a href="csf1.html">Cyber Security Fundamentals</a></p>    
+      <!--div class="w3-light-grey"-->
+    <p><a href="csf2.html">Network  Security Fundamentals</a></p>
+      <!--div class="w3-light-grey"-->
+    <p><a href="csf3.html">Security Operation Fundamentals</a></p>
+      <div class="w3-light-grey">
+      </div>   
+    <div class=" w3-content w3-text-grey" id="contact">
+      <h2>Contact Me</h2>
+      <hr class="w3-opacity">
+  
+      <div class="w3-section">
+        <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"></i> Email:Srinidhivemaraju@gmail.com</p>
+        <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"> </i>Phone:8341079066</p>
+      </div>
+    </div>
+  <!-- End About Section -->
+    </div><br>
+    <!-- Testimonials w3-padding-32 -->
+    
+  
+
+  <!-- Contact Section -->
+  
+   
+    <!-- Image of location/map
+    <img src="/w3images/map.jpg" class="w3-image w3-greyscale" style="width:100%;margin:32px 0">
+   
+    <p>Lets get in touch. Send me a message:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>-->
+  <!-- End Contact Section -->
+  </div>  
+<!-- END PAGE CONTENT -->
+</div>
+
+<script>
+// Open and close sidebar
+function openNav() {
+  document.getElementById("mySidebar").style.width = "60%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
+
